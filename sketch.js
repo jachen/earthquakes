@@ -58,7 +58,7 @@ for (var i = 0; i < earthquakes.length; i++) {
 	stroke(255, 0, 255);
 	fill(255, 0, 255);
 	ellipse(x, y, d, d);
-	if (data[4] >= 5) {
+	if (data[4] >= 4.5) {
 		stroke(0);
 		text(data[4], x, y+25);
 	}
