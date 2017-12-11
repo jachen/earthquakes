@@ -60,7 +60,7 @@ for (var i = 0; i < earthquakes.length; i++) {
 	ellipse(x, y, d, d);
 	if (data[4] >= 4.5) {
 		stroke(0);
-		text(data[4], x, y+18);
+		text(data[4], x+d/2+3, y+d/2);
 	}
 
 	stroke(0);
