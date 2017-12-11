@@ -68,6 +68,10 @@ for (var i = 0; i < earthquakes.length; i++) {
   textSize(10);
 	textStyle(NORMAL);
   textAlign(LEFT);
-  text('Allday earthquakes ' + '\u00A9 ' + 'jachen' + ' Ver. 09.12.2017', -100, 200);
-  }
+  // text('Summaty Allday Earthquakes ' + '\u00A9 ' + 'jachen' + ' Ver. 09.12.2017', -100, 200);
+
+	text('Summaty Allday Earthquakes ' + '\u00A9 ' + 'jachen          ' + ' Ver. 1.0', -100, 200);
+	fill(180);
+	text('Carl', 80, 200);
+}
 }
