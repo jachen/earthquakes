@@ -69,9 +69,13 @@ for (var i = 0; i < earthquakes.length; i++) {
 	textStyle(NORMAL);
   textAlign(LEFT);
   // text('Summaty Allday Earthquakes ' + '\u00A9 ' + 'jachen' + ' Ver. 09.12.2017', -100, 200);
-
-	text('Summary Allday Earthquakes ' + '\u00A9 ' + 'jachen          ' + ' Ver. 1.1', -100, 220);
+	text('Summary Allday Earthquakes ' + '\u00A9 ' + 'jachen       ' + ' ver. 1.1', -100, 220);
 	fill(180);
 	text('carl', 75, 220);
+	var d = day();
+	var m = month();
+	var y = year();
+	fill(120)
+	text('Current Date: ' + d + '.' + m + '.' + y, 140, 220);
 }
 }
