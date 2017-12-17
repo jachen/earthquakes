@@ -76,6 +76,6 @@ for (var i = 0; i < earthquakes.length; i++) {
 	var m = month();
 	var y = year();
 	fill(120)
-	text('Current Date: ' + d + '.' + m + '.' + y, 140, 220);
+	text('* Current Date: ' + d + '.' + m + '.' + y, 135, 220);
 }
 }
